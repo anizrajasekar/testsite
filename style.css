@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.topnavbar{
+     background-color: #002c60;
+}
+
+.topnavbar .para1{
+    float: right;
+}
+
+.middlenavbar{
+   background-color: #09346a;
+}
+
+.bottomnavbar{
+    background-color:#002c60;
+}
+
+.home{
+    background: linear-gradient(to right , rgb(201, 127, 127) , rgb(93, 93, 195) , rgb(120, 120, 210) );
+   
+}
+
+
+.bt1{
+    background-color: #002c60;
+    border-color: #002c60;
+}
+
+.bt1:hover{
+    background-color: #002c60;
+    border-color: #002c60;
+}
+
+.c1:hover{
+   box-shadow: 2px 2px 10px;
+   transition: 0.6s;
+}
+
+.sidepage{
+    background-color: #09346a;
+}
+
+.service{
+    background-color: aliceblue;
+}
+
+.servecard:hover{
+     background-color: #09346a;
+     color: white;
+     transition: 1s;
+}
+
+.servecard{
+    border-color: white;
+}
+
+.contact{
+  background-image: url(images/bg-home1-2.png);
+}
+
+.bt2{
+    background-color: rgb(255, 145, 0);
+    border-color:  rgb(255, 145, 0);
+}
+
+.bt2:hover{
+    background-color: rgb(255, 145, 0);
+}
+
+.newsfont{
+    color:  #09346a;
+}
+
+
+.newscard{
+    border-color: white;
+}
+
+.newscard:hover{
+    border-color: white;
+    box-shadow: 2px 2px 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.name1{
+    margin-left:33%;
+    margin-top: -19%;
+}
+
+.namepara{
+    margin-left: 33%;
+}
+
+.starfonts{
+    color: rgb(246, 213, 30);
+    margin-top: -5%;
+}
+
+.review{
+    background-color: rgb(199, 221, 241);
+}
+
+
+.reviewcard{
+    border-color: white;
+}
+
+
+
+.footend{
+    background-color: #002c60;
+}
+
+.footend .font-3 a{
+    background-color: #fff;
+    color: #363636;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    border: 1px solid;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.bt3{
+    background-color: #f26522;
+    color: white;
+}
+
+.font-2 img{
+    display: none;
+}
+
+.fotter-1{
+    background-color: #03418d ;
+}
+
+
+
+  
+
+@media (max-width: 480px){
+
+header{
+    display: none;
+  }
+
+.font-2 img{
+    display: block;
+}
+
+.font-2 i{
+    display: none;
+}
+
+
+.man img{
+    margin-top: 10px;
+}
+
+.firstcard{
+    margin-top: 5%;
+}
+
+}
+
+
